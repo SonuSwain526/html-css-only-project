@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login/sign up to B∆DLL∆</title>
+    <style>
+        body {
+            background-image: url('') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-shadow: 5px 5px 10px;
+        }
+
+        body::before {
+            content: "";
+            background-image: url('../log.webp') no-repeat center center/cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;
+            z-index: -1;
+            left: 0px;
+            top: 0px;
+        }
+
+     
+
+        h2 {
+            text-decoration: underline;
+            color: white;
+            background-color: rgba(87, 87, 109, 0.438);
+            z-index: 3;
+            box-shadow: 10px 10px 10px;
+        }
+
+        .box {
+            display: inline;
+            border: 2px dotted black;
+            box-shadow: 10px 10px 10px;
+            border-radius: 30px;
+            width: 352px;
+            height: 303px;
+            position: absolute;
+            left: 61px;
+            top: 133px;
+        }
+
+        /* a {
+            display: inline;
+            text-decoration: none;
+            border: 3px solid rgb(136, 124, 148);
+            border-radius: 15px;
+        } */
+
+        li {
+            list-style: none;
+        }
+
+        #si {
+            position: absolute;
+            top: 163px;
+            left: 135px;
+            padding: 7px;
+            font-size: 20px;
+            box-shadow: 10px 10px 10px;
+        }
+
+        #lo {
+            position: absolute;
+            top: 91px;
+            left: 139px;
+            padding: 7px;
+            font-size: 20px;
+            box-shadow: 10px 10px 10px;
+        }
+
+        #si:hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(168, 130, 204);
+        }
+
+        #lo:hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(168, 130, 204);
+        }
+
+        div img {
+            z-index: -1;
+            width: 100%;
+            position: absolute;
+            left: 0px;
+        }
+
+        ul {
+            display: block;
+            height: 600px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="log.webp" alt="">
+        <div class="box">-
+            <ul>
+                <h2> log in/sign up to B∆DLL∆ :</h2>
+                <li><a id="lo" href="login_ip.html" target="_blank">log in</a></li>
+                <li><a id="si" href="signup.html" target="_blank">sign up</a></li>
+            </ul>
+            <!-- <a href="">log in</a>
+        <a href="">sign up</a> -->
+        </div>
+    </div>
+</body>
+
+</html>
